@@ -1,0 +1,24 @@
+
+acorn@acorn-PC MINGW64 ~/git2
+$ git clone https://github.com/silver3836/Human_inter
+Cloning into 'Human_inter'...
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 10 (delta 1), reused 9 (delta 1), pack-reused 0
+Unpacking objects: 100% (10/10), done.
+
+acorn@acorn-PC MINGW64 ~/git2
+$ cd Human_inter
+
+acorn@acorn-PC MINGW64 ~/git2/Human_inter (master)
+$ ls
+human_inter.txt
+
+acorn@acorn-PC MINGW64 ~/git2/Human_inter (master)
+$
+
+
+
+
+
