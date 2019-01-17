@@ -1,0 +1,24 @@
+
+acorn@acorn-PC MINGW64 ~/github test
+$ git config --global user.name "silver3836"
+
+acorn@acorn-PC MINGW64 ~/github test
+$ git config --global user.email "value_foryou@naver.com"
+
+acorn@acorn-PC MINGW64 ~/github test
+$ git config --global color.ui "auto"
+
+acorn@acorn-PC MINGW64 ~/github test
+$ git config --global --list
+user.name=silver3836
+user.email=value_foryou@naver.com
+color.ui=auto
+
+acorn@acorn-PC MINGW64 ~/github test
+$
+
+
+
+
+
+
