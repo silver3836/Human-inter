@@ -17,8 +17,43 @@ color.ui=auto
 acorn@acorn-PC MINGW64 ~/github test
 $
 
+acorn@acorn-PC MINGW64 ~/github test
+$ git init
+Initialized empty Git repository in C:/Users/acorn/github test/.git/
 
+acorn@acorn-PC MINGW64 ~/github test (master)
+$ git commit -am "파일을 추가"
+On branch master
 
+Initial commit
 
+Untracked files:
+        human_inter.txt
 
+nothing added to commit but untracked files present
 
+acorn@acorn-PC MINGW64 ~/github test (master)
+$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'origin'
+
+acorn@acorn-PC MINGW64 ~/github test (master)
+$ git push -u human-inter master
+error: src refspec master does not match any.
+error: failed to push some refs to 'human-inter'
+
+acorn@acorn-PC MINGW64 ~/github test (master)
+$ git add *
+
+acorn@acorn-PC MINGW64 ~/github test (master)
+$ git commit -am
+error: switch `m' requires a value
+
+acorn@acorn-PC MINGW64 ~/github test (master)
+$ git commit -am "파일추가"
+[master (root-commit) 464d034] 파일추가
+ 1 file changed, 24 insertions(+)
+ create mode 100644 human_inter.txt
+
+acorn@acorn-PC MINGW64 ~/github test (master)
+$ git push -u value_foryou@naver.com:/human-inter master
